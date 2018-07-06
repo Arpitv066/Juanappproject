@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.juan.arpit.juan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        android:name="MyApplication">
+        <activity android:name="com.juan.arpit.juan.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.juan.arpit.juan.Main2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".FirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+
+        </service>
+        <service android:name=".FirebaseRegistration">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+
+        </service>
+
+
+
+        <activity android:name="com.juan.arpit.juan.Main22Activity" />
+
+
+
+        <activity android:name="com.juan.arpit.juan.AcademicsActivity" />
+        <activity android:name="com.juan.arpit.juan.kioskActivity" />
+
+        <activity android:name="com.juan.arpit.juan.resourceforstudents" />
+        <activity
+            android:name="com.juan.arpit.juan.Main26Activity"
+            android:label="@string/title_activity_main26"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.juan.arpit.juan.firstActivity"
+            android:label="@string/title_activity_first"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name="com.juan.arpit.juan.Contacts" />
+        <activity android:name="com.juan.arpit.juan.Emergency" />
+        <activity android:name="com.juan.arpit.juan.Administration" />
+        <activity android:name="com.juan.arpit.juan.Rickshaw" />
+        <activity android:name="com.juan.arpit.juan.Internals" />
+        <activity
+            android:name="com.juan.arpit.juan.Library1"
+            android:label="@string/title_activity_library"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.juan.arpit.juan.LRC" />
+        <activity android:name="com.juan.arpit.juan.DELNET" />
+
+
+
+        <activity android:name="com.juan.arpit.juan.Aboutjua" />
+        <activity android:name="com.juan.arpit.juan.Academiccalendar" />
+        <activity android:name="com.juan.arpit.juan.Developers" />
+        <activity android:name="com.juan.arpit.juan.jyc" />
+        <activity android:name="com.juan.arpit.juan.Aboutjuan" />
+        <activity android:name="com.juan.arpit.juan.Guidelines" />
+
+
+
+
+    </application>
+
+</manifest>

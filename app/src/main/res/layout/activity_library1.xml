@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lib"
+    tools:context="com.juan.arpit.juan.Library1"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/ndl"
+        android:layout_width="251dp"
+        android:layout_height="69dp"
+
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_background"
+        android:onClick="ndl"
+        android:text="National Digital Library" />
+
+    <Button
+        android:id="@+id/delnet"
+        android:layout_width="251dp"
+        android:layout_height="69dp"
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bbbb"
+        android:onClick="delnet"
+        android:text="Delnet"
+         />
+
+    <Button
+        android:id="@+id/lrc"
+        android:layout_width="251dp"
+        android:layout_height="69dp"
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bbb"
+        android:onClick="lrc"
+
+        android:text="Learning Resource Center"
+        />
+
+</LinearLayout>

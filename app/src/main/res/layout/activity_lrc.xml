@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.juan.arpit.juan.LRC">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.389"
+        tools:layout_editor_absoluteY="131dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="@color/common_google_signin_btn_text_dark_focused"
+                app:cardCornerRadius="17dp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="9dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/library" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="2.42"
+                app:cardBackgroundColor="@android:color/holo_blue_dark"
+                app:cardCornerRadius="14dp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="9dp">
+
+
+                <Button
+                    android:id="@+id/elrc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/bbbb"
+                    android:onClick="elrc"
+                    android:text=".......Enter into L.R.C" />
+
+                <Button
+                    android:id="@+id/jgate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="78dp"
+                    android:background="@drawable/bbb"
+                    android:onClick="jgate"
+                    android:text="J-GATE (largest E-journal Gateway)" />
+
+                <Button
+                    android:id="@+id/ieee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="138dp"
+                    android:background="@drawable/btnbg1"
+                    android:onClick="ieee"
+                    android:text="IEEE -DIGITAL LIBRARY" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="#88d3f3"
+                app:cardCornerRadius="14dp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="9dp">
+
+                <TextView
+                    android:id="@+id/textView15"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Jaypee University, Anoopshahr has recently established the Learning Resource Center (LRC) in an academic block of campus. It’s a hub where users can learn and explore the world of knowledge. It provides platform to pursue a wide array of intellectual, social and cultural endeavors. LRC offers expertise, rich collection, technology, customize services for readers throughout and always helps to navigate through the ocean of information. The LRC at Jaypee University provides a welcoming, comfortable, technology enriched environment that supports the courses taught at the campus. It is enriched in fields like Computer Science, Information Technology, Biotechnology, Mathematics, Physics and Materials Science, Humanities, Management and other related applied fields. At the starting stage, there are 6765 books available on the various fields, but soon it will be expanding in all the horizons.  Thus, LRC augments the environment where one can work, grow and succeed."
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.widget.RelativeLayout>

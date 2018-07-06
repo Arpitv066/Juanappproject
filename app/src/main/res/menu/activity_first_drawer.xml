@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_account_balance_black_36dp"
+            android:title="About University" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_language_black_36dp"
+            android:title="Cyberoam Internet Usage" />
+        <item
+            android:id="@+id/nav_slideshow"
+           android:icon="@drawable/ic_event_black_36dp"
+            android:title="Academic Calendar" />
+
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/map"
+            android:title="Location" />
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/ic_exit_to_app_black_36dp"
+            android:title="Sign Out" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+               android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_manage"
+        android:icon="@drawable/ic_group_work_black_36dp"
+        android:title="JUA LIVE" />
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "59293923470",
+    "firebase_url": "https://juanote-c1022.firebaseio.com",
+    "project_id": "juanote-c1022",
+    "storage_bucket": "juanote-c1022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59293923470:android:792a3fcfd073f9a7",
+        "android_client_info": {
+          "package_name": "com.juan.arpit.juan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59293923470-4u9id5foi3o2369lvvvpetcf7m8dujo4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juan.arpit.juan",
+            "certificate_hash": "0a0ca98485ff5bce02f17860c60ad6907ea4c105"
+          }
+        },
+        {
+          "client_id": "59293923470-kd3lfsuqsbte05ltovpcqug7a3hbe2kf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtJ7CQoymIeKLgHuLjXIoJpKKvZIPVD0A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59293923470-kd3lfsuqsbte05ltovpcqug7a3hbe2kf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

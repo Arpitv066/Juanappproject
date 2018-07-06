@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.juan.arpit.juan.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/a"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/arpit"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="#8BC34A"
+            app:civ_shadow_radius="10" />
+
+        <TextView
+            android:id="@+id/arpit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Arpit Verma"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="19dp" />
+
+        <View
+            android:id="@+id/af"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/arpit"
+            android:background="@android:color/darker_gray" />
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/b"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:layout_below="@+id/af"
+            android:src="@drawable/anuj"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="#8BC34A"
+            app:civ_shadow_radius="10" />
+
+        <TextView
+            android:id="@+id/anuj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Anuj Jain"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="19dp" />
+
+        <View
+            android:id="@+id/bf"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:layout_below="@+id/anuj"
+            android:background="@android:color/darker_gray" />
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/c"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:layout_below="@+id/bf"
+            android:src="@drawable/lalit"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="#8BC34A"
+            app:civ_shadow_radius="10" />
+
+        <TextView
+            android:id="@+id/lalit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Lalit Thakur"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="19dp" />
+
+        <View
+            android:id="@+id/cf"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:layout_below="@+id/lalit"
+            android:background="@android:color/darker_gray" />
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/d"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:layout_below="@+id/cf"
+            android:src="@drawable/tausif"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="#8BC34A"
+            app:civ_shadow_radius="10" />
+
+        <TextView
+            android:id="@+id/shivam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/d"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Shivam Agarwal"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:id="@+id/Gmailanuj"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/anuj"
+            android:layout_marginBottom="36dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@+id/shivam"
+            android:layout_toRightOf="@+id/shivam"
+            app:srcCompat="@drawable/gmail" />
+
+        <ImageView
+            android:id="@+id/Gmailarpit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/arpit"
+            android:layout_alignEnd="@+id/Gmailanuj"
+            android:layout_alignRight="@+id/Gmailanuj"
+            android:layout_marginBottom="40dp"
+            android:onClick="arpitmail"
+            app:srcCompat="@drawable/gmail" />
+
+        <ImageView
+            android:id="@+id/Gmaillalit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/c"
+            android:layout_alignEnd="@+id/Gmailanuj"
+            android:layout_alignRight="@+id/Gmailanuj"
+            android:layout_marginBottom="34dp"
+            app:srcCompat="@drawable/gmail" />
+
+        <ImageView
+            android:id="@+id/Gmailtausif"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/Gmaillalit"
+            android:layout_alignStart="@+id/Gmaillalit"
+            android:layout_below="@+id/cf"
+            android:layout_marginTop="34dp"
+            app:srcCompat="@drawable/gmail" />
+
+        <ImageView
+            android:id="@+id/Fbarpit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/Gmailarpit"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp"
+            android:layout_toEndOf="@+id/Gmailarpit"
+            android:layout_toRightOf="@+id/Gmailarpit"
+            android:onClick="arpitfb"
+            app:srcCompat="@drawable/fb" />
+
+        <ImageView
+            android:id="@+id/Fbanuj"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/Gmailanuj"
+            android:layout_alignEnd="@+id/Fbarpit"
+            android:layout_alignRight="@+id/Fbarpit"
+            app:srcCompat="@drawable/fb" />
+
+        <ImageView
+            android:id="@+id/Fblalit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/Gmaillalit"
+            android:layout_alignEnd="@+id/Fbanuj"
+            android:layout_alignRight="@+id/Fbanuj"
+            app:srcCompat="@drawable/fb" />
+
+        <ImageView
+            android:id="@+id/Fbtausif"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/Gmailtausif"
+            android:layout_alignEnd="@+id/Fblalit"
+            android:layout_alignRight="@+id/Fblalit"
+            app:srcCompat="@drawable/fb" />
+
+        <ImageView
+            android:id="@+id/Lkarpit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/Fbarpit"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp"
+            android:layout_toEndOf="@+id/Fbarpit"
+            android:layout_toRightOf="@+id/Fbarpit"
+            android:onClick="arpitlkd"
+            app:srcCompat="@drawable/lnkdn" />
+
+        <ImageView
+            android:id="@+id/Lkanuj"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/Fbanuj"
+            android:layout_alignEnd="@+id/Lkarpit"
+            android:layout_alignRight="@+id/Lkarpit"
+            app:srcCompat="@drawable/lnkdn" />
+
+        <ImageView
+            android:id="@+id/Lklalit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/Fblalit"
+            android:layout_alignEnd="@+id/Lkanuj"
+            android:layout_alignRight="@+id/Lkanuj"
+            app:srcCompat="@drawable/lnkdn" />
+
+        <ImageView
+            android:id="@+id/Lktausif"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/Fbtausif"
+            android:layout_alignEnd="@+id/Lklalit"
+            android:layout_alignRight="@+id/Lklalit"
+            app:srcCompat="@drawable/lnkdn" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
